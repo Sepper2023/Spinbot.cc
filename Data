@@ -1,0 +1,5 @@
+return {
+  ["south-bronx"] = {
+    ["CryptedByte"] = 1
+  }
+}
