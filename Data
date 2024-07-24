@@ -1,5 +1,5 @@
 return {
   ["south-bronx"] = {
-    ["CryptedByte"] = 1
+    ["CryptedByte"] = 2
   }
 }
