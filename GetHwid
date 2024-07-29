@@ -4,10 +4,10 @@ local request = request or http_request or (http and http.request) or syn.reques
 local hwid = nil
 local name = nil
 
-local response = request({Url = "https://kya.jvck.gg/return-headers"}).Body
+local response = request({Url = "http://httpbin.org/headers"}).Body
 local decoded = game:GetService("HttpService"):JSONDecode(response)
 
-for i, v in pairs(decoded) do
+for i, v in pairs(decoded.headers) do
     local lowered = tostring(i):lower()
 
     print(i, v)
