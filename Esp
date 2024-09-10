@@ -239,7 +239,7 @@ do -- Initalize
                         end
 
                         -- Teamcheck
-                        if and plr ~= lplayer and plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") and plr.Character:FindFirstChild("Humanoid") then
+                        if plr ~= lplayer and plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") and plr.Character:FindFirstChild("Humanoid") then
 
                             do -- Chams
                                 Chams.Adornee = plr.Character
