@@ -418,7 +418,6 @@ do -- // Visuals
                         HealthBarOutline = Drawing.new("Square"),
                         HealthBarInline = Drawing.new("Square"),
                         HealthBarValue = Drawing.new("Text"),
-                        BoxFill = Drawing.new("Square"),
                         BoxOutline = Drawing.new("Square"),
                         BoxInline = Drawing.new("Square"),
                         Name = Drawing.new("Text"),
@@ -450,7 +449,7 @@ do -- // Visuals
                     SetRenderProperty(Self.Renders.BoxOutline, "Filled", false)
                     SetRenderProperty(Self.Renders.BoxOutline, "Visible", false)
                     -- Fill
-                    SetRenderProperty(Self.Renders.BoxFill, "Filled", true)
+                    SetRenderProperty(Self.Renders.BoxFill, "Filled", false)
                     SetRenderProperty(Self.Renders.BoxFill, "Visible", false)
                 end
                 --
